@@ -1,13 +1,15 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './template/home/home.component';
+import { ListComponent } from './template/list/list.component';
+import { DncharacterComponent } from './template/dncharacter/dncharacter.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: HomeComponent,
     children:[
-    {path:'', component: HomeComponent}
+    {path:'', component: ListComponent },
+    {path: 'character', component: DncharacterComponent}
   ]
   }
 ];

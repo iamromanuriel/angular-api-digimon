@@ -1,12 +1,12 @@
 import { Component, ElementRef } from '@angular/core';
-import { AppMenu } from './app.menu';
+import { DnmenuComponent } from "../../template/dnmenu/dnmenu.component";
 
 @Component({
     selector: 'app-sidebar',
     standalone: true,
-    imports: [AppMenu],
+    imports: [DnmenuComponent],
     template: ` <div class="layout-sidebar">
-        <app-menu></app-menu>
+        <app-dnmenu></app-dnmenu>
     </div>`
 })
 export class AppSidebar {
