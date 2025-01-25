@@ -26,8 +26,8 @@ export class DnmenuComponent implements OnInit{
           items: [
           {label: 'List', icon: 'pi pi-fw pi-home', routerLink: ['/'] },
           {label: 'Character', icon: 'pi pi-fw pi-user', routerLink: ['/character'] },
-          {label: 'Picture', icon: 'pi pi-fw pi-image', routerLink: ['/'] },
-          {label: 'Other', icon: 'pi pi-fw pi-image', routerLink: ['/'] }
+          {label: 'Picture', icon: 'pi pi-fw pi-image', routerLink: ['/picture'] },
+          {label: 'Other', icon: 'pi pi-fw pi-image', routerLink: ['/other'] }
         ]
        }
       ]
