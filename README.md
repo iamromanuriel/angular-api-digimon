@@ -2,6 +2,26 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
+Before running app
+Install primeNg 
+```
+npm install primeng @primeng/themes
+```
+
+Install primeNg Icons
+
+```
+npm install primeicons
+```
+
+Add folders [Sakai](https://sakai.primeng.org/documentation)
+
+src/app/layout
+src/app/pages
+src/assets/demo
+src/assets/layout
+
+
 ## Development server
 
 To start a local development server, run:
