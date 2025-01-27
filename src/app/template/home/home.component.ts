@@ -24,7 +24,7 @@ import { AppSidebar } from "../../layout/component/app.sidebar";
       </div>
     </div>
 
-  `,imports: [CommonModule, AppTopbar, RouterModule, DntopbarComponent, AppSidebar]
+  `,imports: [CommonModule, RouterModule, DntopbarComponent, AppSidebar]
 })
 
 
